@@ -1,0 +1,14 @@
+header .container{
+    background-color: rgba(15, 12, 32, 0.603);
+    border-bottom: solid orange;
+}
+
+#showcase{
+    background: url(../img/gigi-logo.png);
+    height: 300px;
+    text-align: center;
+    padding-top: 15%;
+    filter: grayscale(50%);
+    -webkit-filter: grayscale(100%);
+    color: white;
+}
