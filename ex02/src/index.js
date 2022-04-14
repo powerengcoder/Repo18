@@ -32,7 +32,7 @@ function* insideGenerator2(){
     var iterator = myGenerator();
 
     let  fifteenArray = [];
-    for (i = 0; i <16; i++){
+    for (i = 0; i <15; i++){
         fifteenArray.push(iterator.next().value);
     }
     console.log(fifteenArray.join('#, ') + "#");
